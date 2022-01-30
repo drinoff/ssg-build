@@ -1,0 +1,42 @@
+.footer {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 30vh;
+    background-color: transparent;
+    margin-bottom: 0px;
+    color: #515BA4;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer div ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 700;
+}
+
+.footer div ul li {
+    list-style: none;
+}
+
+.designMark {
+    position: fixed;
+    bottom: 0px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #673AB7;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.designMark a {
+    text-decoration: none;
+    color: #22133D;
+
+}

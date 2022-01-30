@@ -6,7 +6,6 @@ const Header = () => {
     return (
         <header className="header">
             <div className="imgWrapper"></div>
-
             <Nav className="navinHeader" />
             <div className="headerMask"></div>
         </header>

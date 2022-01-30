@@ -8,7 +8,7 @@ const Nav = () => {
             <ul>
                 <li>
                     <Link
-                        to="/homePage"
+                        to="/"
                         style={{ textDecoration: "none", color: "white" }}
                     >
                         Начало
