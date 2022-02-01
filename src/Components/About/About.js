@@ -1,8 +1,14 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import "./About.css";
 
 const About = () => {
+    const navigate = useNavigate();
+
+    const onContactButtonHandler = () => {
+        navigate("/contact");
+    };
+
     return (
         <div className="about">
             SSG Build е компяния която се занимава с реновиране и ремонти на
@@ -22,8 +28,11 @@ const About = () => {
                 <p>Искате да се консултирате с Мен?</p>
                 <p>Или просто искате да кажете Здрасти?</p>
             </div>
-            <button>
-                <Link to="/contact">Свържете се с Мен</Link>
+            <button
+                onClick={onContactButtonHandler}
+                className="contactMeButton"
+            >
+                Свържете се с Мен
             </button>
         </div>
     );

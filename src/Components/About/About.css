@@ -4,5 +4,29 @@
     align-items: center;
     justify-content: center;
     width: 70%;
+    margin-top: 100px;
+    font-size: 22px;
+    color: #515BA4;
 
+
+}
+
+.contactMeButton {
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    border: 2px solid #515BA4;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: inherit;
+    background: #515BA4;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contactMeButton:hover {
+    background: #8B91C2;
+    color: white;
+    cursor: pointer;
 }
