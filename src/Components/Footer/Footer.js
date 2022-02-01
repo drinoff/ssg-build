@@ -16,10 +16,16 @@ const Footer = () => {
                 <div className="footerContact">
                     <h4>Връзка с Мен</h4>
                     <ul>
-                        <li>Phone</li>
+                        <li>089 987 88 888</li>
                         <li>WhatsUp</li>
                         <li>Viber</li>
-                        <li>Email</li>
+                        <li
+                            onClick={() =>
+                                (window.location = "mailto:yourmail@gmail.com")
+                            }
+                        >
+                            selqydin1990@gmail.com
+                        </li>
                     </ul>
                 </div>
 

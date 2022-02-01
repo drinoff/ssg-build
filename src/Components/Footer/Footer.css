@@ -1,38 +1,52 @@
 .footer {
-    position: fixed;
-    bottom: 0px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     height: 30vh;
     background-color: transparent;
     margin-bottom: 0px;
     color: #515BA4;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 10px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: rgb(230, 230, 230, 0.9);
+
 }
 
 .footer div ul {
     margin: 0px;
     padding: 0px;
-    font-weight: 700;
+
 }
 
 .footer div ul li {
     list-style: none;
+    font-weight: 700;
+}
+
+.footer div h4 {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.footerSocial {
+    font-size: 18px;
 }
 
 .designMark {
-    position: fixed;
-    bottom: 0px;
     font-size: 10px;
     font-weight: bold;
     color: #673AB7;
     text-transform: uppercase;
     text-align: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(173, 167, 173, 1) 52%, rgba(200, 234, 241, 1) 100%);
+    margin: 0px;
+    width: 100%;
 }
 
 .designMark a {
