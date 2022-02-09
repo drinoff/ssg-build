@@ -20,7 +20,7 @@
 
 .navigation ul li {
     list-style: none;
-    margin: 0px 20px;
+    margin-left: 25px;
     font-size: 14px;
     font-weight: 700;
     font-weight: bold;
@@ -29,6 +29,13 @@
     cursor: pointer;
 }
 
-.navigation ul li Link {
+.navLink {
     text-decoration: none;
+    color: white;
+
+}
+
+.navLink:hover {
+
+    color: aquamarine;
 }

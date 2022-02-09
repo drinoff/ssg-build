@@ -7,34 +7,22 @@ const Nav = () => {
         <nav className="navigation">
             <ul>
                 <li>
-                    <Link
-                        to="/"
-                        style={{ textDecoration: "none", color: "white" }}
-                    >
+                    <Link className="navLink" to="/">
                         Начало
                     </Link>
                 </li>
                 <li>
-                    <Link
-                        to="/about"
-                        style={{ textDecoration: "none", color: "white" }}
-                    >
+                    <Link className="navLink" to="/about">
                         За Нас
                     </Link>
                 </li>
                 <li>
-                    <Link
-                        to="/projects"
-                        style={{ textDecoration: "none", color: "white" }}
-                    >
+                    <Link className="navLink" to="/projects">
                         Проекти
                     </Link>
                 </li>
                 <li>
-                    <Link
-                        to="/contact"
-                        style={{ textDecoration: "none", color: "white" }}
-                    >
+                    <Link className="navLink" to="/contact">
                         Връзка
                     </Link>
                 </li>
