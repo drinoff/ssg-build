@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
 .header {
     display: flex;
     align-items: center;
@@ -28,5 +30,13 @@
     height: 20vh;
     background: rgba(0, 0, 0, 0.7);
     z-index: -1;
+
+}
+
+.headerLogo {
+    position: absolute;
+    left: 160px;
+    font-family: 'Reggae One', cursive;
+    color: aquamarine;
 
 }
